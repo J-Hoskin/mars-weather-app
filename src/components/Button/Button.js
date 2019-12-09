@@ -1,9 +1,11 @@
-import React from './node_modules/react';
-import './button.css';
+import React from 'react';
+import './Button.css';
 
 const button = (props) => {
     return (
-        <button type="button">Enter</button>
+        <div className="Button">
+            <button type="button" class>{props.name}</button>
+        </div>
     )
 }
 

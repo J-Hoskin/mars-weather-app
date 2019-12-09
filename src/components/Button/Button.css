@@ -1,3 +1,19 @@
-.Button {
-    
+
+.Button button {
+    background-color: transparent;
+    font-size: 30px;
+    color: #D89776;
+    border: none;
+    padding: 10px;
+    margin: 5px auto;
+}
+
+.Button button:hover {
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.Button button:focus {
+    outline: 0;
 }
