@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import './Menu.css';
 import Header from '../Header/Header';
 import Divider from '../Divider/Divider';
@@ -11,8 +12,13 @@ const menu = () => {
             <p>Spoilers, it is going to be a cold one</p>
             <Divider />
             
-            <Button name = "Enter" />
-            <Button name = "Credits" />
+            <Link to="/weather">
+                <Button name = "Enter" />
+            </Link>
+
+            <Link to="/credits">
+                <Button name = "Credits" />
+            </Link>
         </div>
     )
 }
