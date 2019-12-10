@@ -1,3 +1,22 @@
 .Reading {
+    width: 100px;
+    height: 100px;
+    float: left;
+    text-align: center;
+}
 
+.Readings {
+    width: 300px;
+    height: 80px;
+    margin: auto;
+}
+
+.Reading p {
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.MeasurementUnit {
+    font-size: 16px;
+    font-weight: 400;
 }
