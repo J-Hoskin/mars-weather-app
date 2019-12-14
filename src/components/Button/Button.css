@@ -1,10 +1,15 @@
+.Button {
+    width: 200px;
+    height: 64px;
+}
+
 .Button button {
     background-color: transparent;
     font-size: 30px;
     color: #D89776;
     border: none;
-    padding: 10px;
-    margin: 5px auto;
+    line-height: 64px;
+    font-weight: 600;
 }
 
 .Button button:hover {

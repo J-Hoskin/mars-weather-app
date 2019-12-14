@@ -9,6 +9,7 @@ class Button extends Component {
         return (
             <div className="SolSelector">
                 <select onChange={this.props.updateSelectedSol}>
+                    <option value="" disabled selected>Select a Sol</option>
                     {this.props.sols.map((sol, key) => {
                         return (
                             <option key={key} value={sol}>{sol}</option>

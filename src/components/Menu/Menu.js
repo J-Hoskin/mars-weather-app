@@ -9,16 +9,19 @@ const menu = () => {
     return (
         <div className = "Menu">
             <Header pageName = "Weather on Mars" />
-            <p>Spoilers, it is going to be a cold one</p>
+            <p>Spoilers, it is cold</p>
             <Divider />
             
-            <Link to="/weather">
-                <Button name = "Enter" />
-            </Link>
+            <div className = "Buttons">
+                <Link to="/weather">
+                    <Button name = "Enter" />
+                </Link>
 
-            <Link to="/credits">
-                <Button name = "Credits" />
-            </Link>
+                <Link to="/credits">
+                    <Button name = "Credits" />
+                </Link>
+            </div>
+            
         </div>
     )
 }

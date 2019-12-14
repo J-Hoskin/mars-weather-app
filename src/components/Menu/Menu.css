@@ -1,9 +1,15 @@
 .Menu {
-    
+    height: 600px;
 }
 
 
 .Menu p {
     padding: 0;
     margin: 0;
+}
+
+.Buttons {
+    width: 200px;
+	height: 124px;
+	margin: 70px auto;
 }
