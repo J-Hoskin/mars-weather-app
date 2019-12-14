@@ -5,6 +5,9 @@ import Header from '../../components/Header/Header';
 import Divider from '../../components/Divider/Divider';
 import Reading from '../../components/Reading/Reading';
 import SolSelector from '../../components/SolSelector/SolSelector';
+import WindIcon from '../../images/windIcon.svg';
+import TemperatureIcon from '../../images/temperatureIcon.svg';
+import PressureIcon from '../../images/pressureIcon.svg';
 
 // 4qJxMS7k6ItqFR89hCkzPFrKkhuSPScN9oXRfgxb
 
@@ -58,9 +61,9 @@ class Weather extends Component {
                 <Divider />
                 <h2>Weather</h2>
                 <div className = "Readings">
-                    <Reading measurement={this.state.selectedSol.HWS} unit="mph"/>
-                    <Reading measurement={this.state.selectedSol.AT} unit="&#8451;"/>
-                    <Reading measurement={this.state.selectedSol.PRE} unit="pa"/>
+                    <Reading icon={WindIcon} measurement={this.state.selectedSol.HWS} unit="mph"/>
+                    <Reading icon={TemperatureIcon} measurement={this.state.selectedSol.AT} unit="&#8451;"/>
+                    <Reading icon={PressureIcon} measurement={this.state.selectedSol.PRE} unit="pa"/>
                 </div>
             </div>
         )
